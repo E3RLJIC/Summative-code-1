@@ -33,7 +33,7 @@ int main()
         break;
     case 20:
         cout << "You enter Jimmy name";
-        cout << "She [N] enjoy at the Theme park";
+        cout << "She [N] cancelled at the Theme park";
         break;
     case 21:
         cout << "You enter Polly name";
