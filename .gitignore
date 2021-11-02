@@ -1,32 +1,82 @@
-# Prerequisites
-*.d
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+    cout << "This program is to check the names of the person if they enjoy or cancelled their trip" << endl;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+    cout << "(Y) for Enjoy or (N) for cancelled\n" << endl;
 
-# Fortran module files
-*.mod
-*.smod
+    cout << "\nEnter you age in numbers\n" << endl;
+    int age;
+    cin >> age;
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+    switch (age)
+    {
+    case 16:
+        cout << "You enter mark's name";
+        cout << "She [Y] enjoy at the mall";
+        break;
+    case 17:
+        cout << "You enter Jolly name";
+        cout << "She [Y] enjoy at the mall";
+        break;
+    case 18:
+        cout << "You enter howard name";
+        cout << "She [N] enjoy at the mall";
+        break;
+    case 19:
+        cout << "You enter Molly name";
+        cout << "She [Y] enjoy at the Theme park";
+        break;
+    case 20:
+        cout << "You enter Jimmy name";
+        cout << "She [N] enjoy at the Theme park";
+        break;
+    case 21:
+        cout << "You enter Polly name";
+        cout << "She [Y] enjoy at the Theme park";
+        break;
+    case 22:
+        cout << "You enter Mike name";
+        cout << "She [Y] enjoy at the istanbul";
+        break;
+    case 23:
+        cout << "You enter John name";
+        cout << "She [Y] enjoy at the istanbul";
+        break;
+    case 24:
+        cout << "You enter estepen name";
+        cout << "She [Y] enjoy at the istanbul";
+        break;
+    case 25:
+        cout << "You enter Rei name";
+        cout << "She [Y] enjoy at the istanbul";
+        break;
+    case 26:
+        cout << "You enter ishii name";
+        cout << "She [Y] enjoy at the hawaii";
+        break;
+    case 27:
+        cout << "You enter Earl name";
+        cout << "She [N] cancelled at the hawaii";
+        break;
+    case 28:
+        cout << "You enter Reynald name";
+        cout << "She [Y] enjoy at the hawaii";
+        break;
+    case 29:
+        cout << "You enter isidal name";
+        cout << "She [Y] enjoy at the hawaii";
+        break;
+    case 30:
+        cout << "You enter Bong name";
+        cout << "She [N] cancelled at the hawaii";
+        break;
 
-# Executables
-*.exe
-*.out
-*.app
+        return 0;
+    }
+
+}
